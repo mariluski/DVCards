@@ -9,7 +9,7 @@ function readTOMLFile(relativeFilePath: string): void {
 
     fs.readFile(absoluteFilePath, 'utf-8', (err, data) => {
         if (err) {
-            console.error('Error reading file:', err);
+            return <p>Error reading file</p>
             return;
         }
         try {
@@ -22,4 +22,5 @@ function readTOMLFile(relativeFilePath: string): void {
 }
 
 // Call the function with the relative path to the TOML file
-readTOMLFile('../../../../config.toml');
+readTOMLFile('../../../../../config.toml');
+export default readTOMLFile;

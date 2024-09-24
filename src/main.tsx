@@ -1,11 +1,7 @@
-import App from "./App";
-import './style/web.css'
-import MainEventHandeler from './components/App/MainEventHandeler'
-
-
-function Index() {
-  return <App />
+import React from "react";
+import ErrorHandeler from "./components/App/events/handelers/ErrorHandeler"
+function App() {
+    return <><div>
+        <h1>cool</
 }
-
-export default Index
-
+export default App;
