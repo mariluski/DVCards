@@ -1,0 +1,14 @@
+[[template]]
+    [[error]]
+        [serverSide]
+            template = "Server error :"
+        [client]
+            template = "Client error:"
+        [account]
+            template = "Your account details have been modified by an administrator, info:"
+        [unknow]
+            template = "An unknow error has happened"
+        [card]
+            template = "Got error while modifying a card:"
+        [page]
+            template = "Before we've gotten some error now fixed, sorry for the inconvenience:"

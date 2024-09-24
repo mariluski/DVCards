@@ -1,0 +1,14 @@
+:root {
+    /* Add a more specific background color */
+    background-color: #1a1a1a; /* A dark gray color */
+    
+    /* Add some basic typography settings */
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    
+    /* Add some basic box model settings */
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
